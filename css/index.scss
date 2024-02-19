@@ -10,7 +10,7 @@
 
 html {
     scroll-behavior: smooth;
-    min-width: 100%;
+    min-width: 1440px;
     background-color: #10151C;
     padding-left: 147px;
     padding-right: 147px;
@@ -50,7 +50,7 @@ header{
     padding-bottom: 180px;
     gap: 60px;
     .text{
-        display: flex;
+        display: block;
         flex-wrap: wrap;
         justify-content: start;
         h1{
@@ -108,6 +108,6 @@ header{
     .brands{
         display: flex;
         flex-direction: row;
-        gap: 50px;
+        justify-content: space-between;
     }
 }

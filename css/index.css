@@ -10,7 +10,7 @@
 }
 html {
   scroll-behavior: smooth;
-  min-width: 100%;
+  min-width: 1440px;
   background-color: #10151C;
   padding-left: 147px;
   padding-right: 147px;
@@ -49,7 +49,7 @@ header button a {
   gap: 60px;
 }
 .layout_1 .text {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: start;
 }
@@ -105,7 +105,7 @@ header button a {
 .layout_2 .brands {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=index.css.map */
