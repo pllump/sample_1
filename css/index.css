@@ -8,6 +8,10 @@
   font-family: "Regular";
   src: url(../font/DMSans-Regular.ttf);
 }
+@font-face {
+  font-family: "Poppins";
+  src: url(../font/Poppins-Regular.ttf);
+}
 html {
   scroll-behavior: smooth;
   max-width: 1440px;
@@ -247,6 +251,282 @@ header button a {
 }
 .layout_4 .layout_4_wrap .visual img {
   padding: 0px 90px 0px 90px;
+}
+
+.layout_5 {
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layout_5 .text {
+  max-width: 460px;
+}
+.layout_5 .text h2 {
+  font-family: "Regular";
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 15px;
+}
+.layout_5 .text p {
+  font-family: "Regular";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7E8597;
+  padding-bottom: 40px;
+}
+.layout_5 .text .icons {
+  display: flex;
+  justify-content: space-between;
+}
+.layout_5 .text .icons div img {
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  padding: 12px;
+}
+.layout_5 .text .icons div p {
+  padding-top: 15px;
+  padding-bottom: 50px;
+  background-color: none;
+  font-family: "Regular";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.layout_5 .text button {
+  background-color: #FA0369;
+  border-radius: 100px;
+}
+.layout_5 .text button a {
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 16px 48px 16px 48px;
+  gap: 10px;
+}
+.layout_5 .visual {
+  display: flex;
+  align-items: center;
+  position: static;
+  max-height: 530px;
+  background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
+  border-radius: 24px;
+}
+.layout_5 .visual img {
+  padding: 0px 90px 0px 90px;
+  background: url(../img/back1.png) no-repeat 60% 60%, url(../img/back2.png) no-repeat 75% 75%;
+}
+
+.layout_6 {
+  padding: 200px 0 120px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layout_6 .visual {
+  display: flex;
+  align-items: center;
+  position: static;
+  max-height: 530px;
+  background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
+  border-radius: 100%;
+}
+.layout_6 .visual img {
+  padding: 0px 85px 0px 85px;
+  background: url(../img/back3.png) no-repeat 65% 65%, url(../img/back4.png) no-repeat 75% 75%;
+}
+.layout_6 .text {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-width: 460px;
+}
+.layout_6 .text h2 {
+  font-family: "Regular";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46.87px;
+  letter-spacing: 0em;
+  padding-bottom: 15px;
+}
+.layout_6 .text p {
+  color: #7E8597;
+  font-family: "Regular";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.layout_6 .text button {
+  background-color: #FA0369;
+  border-radius: 100px;
+}
+.layout_6 .text button a {
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 16px 48px 16px 48px;
+  gap: 10px;
+}
+
+.layout_7 {
+  padding-top: 180px;
+  padding-bottom: 90px;
+  margin: 0 -147px -60px -147px;
+  background-color: #FFFFFF;
+}
+.layout_7 .wrapper {
+  margin: 0 147px 0 147px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #141A25;
+  border-radius: 25px;
+}
+.layout_7 .wrapper .text {
+  padding-left: 130px;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-width: 460px;
+  padding-bottom: 60px;
+}
+.layout_7 .wrapper .text h2 {
+  padding-top: 60px;
+  font-family: "Regular";
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.layout_7 .wrapper .text p {
+  padding-top: 25px;
+  color: #7E8597;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 40px;
+}
+.layout_7 .wrapper .text button {
+  background-color: #FA0369;
+  border-radius: 100px;
+  min-width: max-content;
+}
+.layout_7 .wrapper .text button div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 48px 16px 48px;
+}
+.layout_7 .wrapper .text button div a {
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.layout_7 .wrapper .visual {
+  display: flex;
+  align-items: end;
+  position: relative;
+  max-height: max-content;
+  margin-top: -90px;
+  padding-right: 110px;
+}
+
+.layout_8 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0 -147px -60px -147px;
+  background-color: #FFFFFF;
+}
+.layout_8 .wrapper {
+  margin: 0 147px 0 147px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layout_8 .wrapper .text {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-width: 460px;
+}
+.layout_8 .wrapper .text h2 {
+  font-family: "Regular";
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1A1A1A;
+}
+.layout_8 .wrapper .text p {
+  font-family: "Regular";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7E8597;
+}
+
+footer {
+  border-top: 1px solid #7E8597;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 -147px -60px -147px;
+  background-color: #FFFFFF;
+}
+footer .wrapper {
+  margin: 0 147px 0 147px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .wrapper p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(26, 26, 26, 0.5607843137);
+}
+footer .wrapper ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 /*# sourceMappingURL=index.css.map */
